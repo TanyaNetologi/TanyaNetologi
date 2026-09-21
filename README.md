@@ -1,64 +1,228 @@
 # Татьяна Чушкова
 
-QA Engineer с фокусом на ручное тестирование, API, SQL и автоматизацию на Python.
+## QA Engineer | Manual QA | API | SQL | Python Automation
 
-Сейчас развиваюсь в тестировании веб-приложений и автоматизации тестов. В учебных проектах работаю с UI-тестированием, REST API, базами данных и автоматизацией.
+Развиваюсь в направлении QA с основным фокусом на ручное тестирование.
+
+Работаю с тестовой документацией, функциональным тестированием, REST API, SQL и Chrome DevTools.  
+Составляю чек-листы и тест-кейсы, выполняю позитивное и негативное тестирование, проверяю граничные значения и оформляю баг-репорты.
+
+Изучаю автоматизацию тестирования на Python с использованием Selenium и Pytest. Также есть учебная практика с Cypress, Playwright, Puppeteer и Jest.
+
+Сейчас продолжаю обучение по программе **«QA Инженер по тестированию на Python» в Нетологии**.
+
+---
 
 ## Навыки
 
-- Manual Testing
-- Test Cases, Checklists, Bug Reports
-- REST API, Postman
-- SQL, PostgreSQL
-- Chrome DevTools
-- Python
-- Selenium WebDriver
-- Pytest
-- Allure
-- JavaScript
-- Cypress
-- Playwright
-- Puppeteer
-- Git / GitHub
+### Manual QA
 
-## Основные проекты
+- функциональное тестирование;
+- позитивное и негативное тестирование;
+- регрессионное тестирование;
+- тестирование граничных значений;
+- анализ требований;
+- составление чек-листов;
+- составление тест-кейсов;
+- оформление баг-репортов;
+- Severity / Priority;
+- Steps to reproduce;
+- Actual Result / Expected Result;
+- GitHub Issues.
 
-### AQA Shop
+### API и клиент-сервер
 
-Автоматизация тестирования веб-сервиса покупки тура.
+- REST API;
+- Postman;
+- HTTP-запросы;
+- GET / POST / PUT / DELETE;
+- JSON;
+- анализ ответов сервера;
+- Chrome DevTools;
+- Network.
 
-Стек:
+### Базы данных
 
-`Python` `Selenium` `Pytest` `PostgreSQL` `Allure`
+- SQL;
+- PostgreSQL;
+- SELECT;
+- фильтрация и проверка данных;
+- проверка результатов операций в базе данных.
 
-Реализованы UI-тесты, проверки базы данных и отчётность Allure.
+### Автоматизация
 
-### Cypress API Tests
+- Python;
+- Selenium WebDriver;
+- Pytest;
+- Allure;
+- JavaScript;
+- Cypress;
+- Playwright;
+- Puppeteer;
+- Jest;
+- Cucumber.
 
-Автоматизированное тестирование REST API.
+### Инструменты
 
-Стек:
+- Git;
+- GitHub;
+- GitHub Issues;
+- Chrome DevTools;
+- Postman;
+- VS Code;
+- Allure;
+- Cypress Cloud.
 
-`JavaScript` `Cypress` `REST API`
+---
 
-Реализованы сценарии создания, редактирования и удаления пользователей.
+# Проекты
 
-### Cypress Cinema Tests
+## Manual QA — Henderson
 
-UI- и end-to-end тестирование сервиса бронирования билетов.
+Репозиторий:  
+[manual-qa-henderson](https://github.com/TanyaNetologi/manual-qa-henderson)
 
-Стек:
+Учебный проект по ручному тестированию веб-приложения Henderson.
 
-`JavaScript` `Cypress` `Cypress Cloud`
+В проекте представлены:
 
-### Selenium UI Tests
+- чек-лист;
+- тест-кейсы;
+- позитивные и негативные проверки;
+- проверки граничных значений;
+- баг-репорты;
+- определение Severity;
+- Steps to reproduce;
+- Actual Result / Expected Result;
+- GitHub Issues;
+- скриншоты найденных дефектов.
 
-Автоматизация позитивных и негативных сценариев авторизации.
+---
 
-Стек:
+## AQA Shop — Diploma Project
 
-`Python` `Selenium` `Pytest` `Allure`
+Репозиторий:  
+[qapy-diplom](https://github.com/TanyaNetologi/qapy-diplom)
+
+Дипломный учебный проект по тестированию веб-сервиса покупки тура.
+
+Использованы:
+
+- Python;
+- Selenium;
+- Pytest;
+- PostgreSQL;
+- Allure;
+- Page Object.
+
+В проекте реализованы UI-автотесты и проверки результатов операций в базе данных.
+
+---
+
+## REST API Tests — Cypress
+
+Репозиторий:  
+[cypress-api-tests](https://github.com/TanyaNetologi/cypress-api-tests)
+
+Учебный проект по автоматизации REST API.
+
+Реализованы проверки:
+
+- создания пользователя;
+- изменения данных пользователя;
+- удаления пользователя;
+- проверки ответа сервера после удаления.
+
+Использованы:
+
+- JavaScript;
+- Cypress;
+- REST API;
+- HTTP methods.
+
+---
+
+## Selenium UI Tests
+
+Репозиторий:  
+[selenium-test](https://github.com/TanyaNetologi/selenium-test)
+
+Учебный проект по автоматизации UI-тестирования.
+
+Использованы:
+
+- Python;
+- Selenium WebDriver;
+- Pytest;
+- Allure.
+
+---
+
+## API Tests with Python
+
+Репозиторий:  
+[postman-test](https://github.com/TanyaNetologi/postman-test)
+
+Учебные API-тесты с использованием Python.
+
+Реализована работа с:
+
+- GET;
+- POST;
+- PUT;
+- DELETE;
+- JSON;
+- headers;
+- query parameters.
+
+Использованы Python, Requests и Pytest.
+
+---
+
+## Cinema Booking — Cypress
+
+Репозиторий:  
+[cypress-cinema-tests](https://github.com/TanyaNetologi/cypress-cinema-tests)
+
+Учебный проект по UI и end-to-end тестированию сервиса бронирования билетов в кинотеатр.
+
+Реализованы:
+
+- проверки главной страницы;
+- позитивная авторизация;
+- негативная авторизация;
+- сценарий бронирования места.
+
+Использованы Cypress, JavaScript и Cypress Cloud.
+
+---
+
+## Дополнительные учебные проекты
+
+Также работала с:
+
+- Playwright;
+- Puppeteer;
+- Jest;
+- Cucumber;
+- Cypress;
+- Node.js Debugger.
+
+Репозиторий:
+
+[jsaqa-code](https://github.com/TanyaNetologi/jsaqa-code)
+
+---
+
+## Сейчас изучаю
+
+- мобильное тестирование;
+- клиент-серверное взаимодействие;
+- углублённую работу с API;
+- автоматизацию тестирования на Python.
+
+---
 
 ## Цель
 
-Ищу первую коммерческую позицию QA Engineer. Основное направление — ручное тестирование с развитием навыков автоматизации на Python.
+Ищу позицию **QA Engineer / Инженер по тестированию**, где смогу применять навыки ручного тестирования, API и SQL и постепенно развивать автоматизацию на Python.
